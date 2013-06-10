@@ -1,0 +1,42 @@
+Details of dataset construction are given in our paper; below we present only details of the composition
+of the comparison set used in the Original dataset.
+
+We analyzed the content of a random sampling of the deleted articles we collected to determine the topics that were most common in the dataset.
+Using Wikipedia's category hierarchy, we chose categories most similar to those topics. 
+For instance, many of the deleted articles were about writers, so we chose articles from the Writers category.
+Of course, since all the deletions in our dataset were for lack of significance or similar criteria, many of
+the deleted articles did not have any topically similar articles on Wikipedia, since the topic they 
+belonged to is unencyclopedic. There is no category, for example, entitled 'teenage boys', but there were 
+several such pages in our collection of deleted pages. In those cases, we chose topics that seemed to be most similar to the one
+in the deleted group. To parallel South Asian businessmen, for which there is no Wikipedia category but which many of the deleted
+pages were about, for example, we used the category Pakistani Chief Executives. We sampled random groups of articles
+from the following Wikipedia categories:
+
+    Russian actors
+    Pakistani chief executives
+    Indian software companies
+    Software companies
+    Songwriters
+    Brazilian football
+    American musicians
+    American health and wellness writers
+    American politicians
+    American self-help writers
+    Asian writers
+    English footballers
+    New Age writers
+    Self-help writers
+
+These categories were the ones that we found to be most similar to the most common topics of the deleted articles
+we wanted to compare to. Since many of the deleted articles in our dataset were very short, we included some short articles
+that were nevertheless legitimate. This was done by using articles classified as stubs, or short, unfinished articles
+that are about legitimate topics. We use stubs from the following categories:
+
+    Writer stubs
+    English footballer stubs
+    Songwriter stubs
+    Actor stubs
+    Indian writer stubs
+    American songwriter stubs
+    Actor-model stubs
+
