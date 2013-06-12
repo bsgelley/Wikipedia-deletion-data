@@ -1,4 +1,6 @@
 This repository contains several datasets available for download. See the individual README files of each dataset for more details. 
+To download all datasets directly without using git, see http://bsgelley.github.io/Wikipedia-deletion-data. Please note that
+this packages all datasets together in one giant file; it will take some time to download.
 
 1) A dataset of Wikipedia articles nominated for Speedy Deletion from October - December 2011; some of these were later deleted and some were not.
 Data is in Speedies.tar.gz; readme in SpeedyREADME.txt.
